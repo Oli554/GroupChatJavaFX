@@ -1,0 +1,5 @@
+chatapp\server\ServerUI.class
+chatapp\server\ChatServer.class
+chatapp\server\ChatServer$ClientHandler.class
+chatapp\server\ChatServerLauncher.class
+chatapp\server\ServerUI$1.class

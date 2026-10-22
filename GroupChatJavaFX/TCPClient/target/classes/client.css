@@ -1,0 +1,30 @@
+root {
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-background-color: #f3f6fb;
+}
+.title { -fx-font-size: 26px; -fx-font-weight: bold; -fx-text-fill: #172b4d; }
+.label { -fx-text-fill: #26364a; }
+.user-label { -fx-font-size: 15px; -fx-font-weight: bold; }
+.text-field, .text-area {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #d6dfeb;
+    -fx-border-radius: 8;
+}
+.chat-area { -fx-font-size: 13px; }
+.button {
+    -fx-background-color: #1769aa;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 9 16;
+    -fx-background-radius: 7;
+}
+.button:hover { -fx-background-color: #0f5287; }
+.button:disabled { -fx-opacity: 0.5; }
+.readonly-banner {
+    -fx-background-color: #e67e22;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8;
+    -fx-background-radius: 6;
+}
